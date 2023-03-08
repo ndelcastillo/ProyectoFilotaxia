@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "levisWindow-regular";
+  src: url("../../assets/fonts/levis-window/regular.ttf");
+}
+@font-face {
+  font-family: "microsoftSansSerif-regular";
+  src: url("../../assets/fonts/microsoft-sans-serif/regular.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.bodyIndex {
+  height: 100vh;
+  background-color: white;
+}
+
+.bodyIndexMain .bodyIndexMainSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection1 a img {
+  width: 100px;
+  height: auto;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection1 p {
+  color: rgb(150, 150, 150);
+  font-size: large;
+  position: relative;
+  bottom: 20px;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection2 a img {
+  width: 100px;
+  height: auto;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection2 p {
+  font-family: "levisWindow-regular";
+  color: rgb(150, 150, 150);
+  font-size: large;
+  position: relative;
+  bottom: 20px;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection3 a img {
+  width: 100px;
+  height: auto;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection3 p {
+  font-family: "levisWindow-regular";
+  color: rgb(150, 150, 150);
+  font-size: large;
+  position: relative;
+  bottom: 20px;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection4 a img {
+  width: 100px;
+  height: auto;
+}
+.bodyIndexMain .bodyIndexMainSection .bodyIndexMainSection4 p {
+  font-family: "levisWindow-regular";
+  color: rgb(150, 150, 150);
+  font-size: large;
+  position: relative;
+  bottom: 20px;
+}
+
+.bodyTerrarios {
+  height: 100vh;
+  background-color: black;
+}
+
+.bodyTerrariosHeader a img {
+  width: 100px;
+  height: auto;
+}
+
+.bodyTerrariosMain {
+  padding: 0px 0 0 35px;
+}
+.bodyTerrariosMain .bodyTerrariosMainSection .bodyTerrariosMainSection1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bodyTerrariosMain .bodyTerrariosMainSection .bodyTerrariosMainSection1 video {
+  width: 55vw;
+  height: auto;
+  padding: 20px;
+}
+
+.bodyFilotaxia {
+  height: 100vh;
+  background-color: black;
+}
+
+.bodyFilotaxiaHeader a img {
+  width: 100px;
+  height: auto;
+}
+
+.bodyFilotaxiaMain {
+  padding: 0px 0 0 35px;
+}
+.bodyFilotaxiaMain .bodyFilotaxiaMainSection .bodyFilotaxiaMainSection1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.bodyFilotaxiaMain .bodyFilotaxiaMainSection .bodyFilotaxiaMainSection1 p {
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+
+.bodyCuidados {
+  height: 100vh;
+  background-color: black;
+}
+
+.bodyCuidadosHeader a img {
+  width: 100px;
+  height: auto;
+}
+
+.bodyCuidadosMain {
+  padding: 0px 0 0 35px;
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection1 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection1 p {
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection1 ul li {
+  margin-left: 30px;
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection2 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection2 p {
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection2 ul li {
+  margin: 0 0 0 30px;
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection2 video {
+  margin: 20px 0 0 30px;
+  width: 40vw;
+  height: auto;
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection3 {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection3 p {
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection3 ul li {
+  margin: 0 0 0 30px;
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyCuidadosMain .bodyCuidadosMainSection .bodyCuidadosMainSection3 video {
+  margin: 20px 0 0 30px;
+  width: 40vw;
+  height: auto;
+}
+
+.bodyContacto {
+  height: 100vh;
+  background-color: black;
+}
+
+.bodyContactoHeader a img {
+  width: 100px;
+  height: auto;
+}
+
+.bodyContactoMain {
+  padding: 0px 0 0 35px;
+}
+.bodyContactoMain .bodyContactoMainSection .bodyContactoMainSection1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.bodyContactoMain .bodyContactoMainSection .bodyContactoMainSection1 p {
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyContactoMain .bodyContactoMainSection .bodyContactoMainSection1 a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  font-family: "microsoftSansSerif-regular";
+}
+.bodyContactoMain .bodyContactoMainSection .bodyContactoMainSection1 a:hover {
+  color: blue;
+}/*# sourceMappingURL=main.css.map */
