@@ -1,0 +1,43 @@
+.bodyContacto {
+    height: 100vh;
+    background-color: black;
+}
+
+.bodyContactoHeader {
+    a img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+.bodyContactoMain {
+    padding: 0px 0 0 35px;
+
+    .bodyContactoMainSection {
+
+        .bodyContactoMainSection1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+
+            p {
+                color: white;
+                text-align: left;
+                font-family: 'microsoftSansSerif-regular';
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+                text-align: left;
+                font-family: 'microsoftSansSerif-regular';
+
+                &:hover{
+                    color: blue;
+                }
+            }
+        }
+
+    }
+}

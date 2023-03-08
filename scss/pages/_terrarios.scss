@@ -1,0 +1,33 @@
+.bodyTerrarios {
+    height: 100vh;
+    background-color: black;
+}
+
+.bodyTerrariosHeader {
+    a img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+.bodyTerrariosMain {
+    padding: 0px 0 0 35px;
+
+    .bodyTerrariosMainSection {
+
+        .bodyTerrariosMainSection1 {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            video {
+                width: 55vw;
+                height: auto;
+                padding: 20px;
+            }
+        }
+
+    }
+}
