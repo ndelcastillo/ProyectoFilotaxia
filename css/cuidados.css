@@ -1,5 +1,23 @@
+@font-face {
+    font-family: 'levisWindow-regular';
+    src: url('../assets/fonts/levis-window/regular.ttf');
+}
+
+@font-face {
+    font-family: 'microsoftSansSerif-regular';
+    src: url('../assets/fonts/microsoft-sans-serif/regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 .bodyCuidados {
     height: 100vh;
+    width: auto;
     background-color: black;
 }
 
@@ -9,7 +27,7 @@
 }
 
 .bodyCuidadosMain {
-    padding: 0px 0 0 35px;
+    padding: 0 0 0 40px;
 }
 
 .bodyCuidadosMainSection1 {
@@ -22,14 +40,18 @@
 .bodyCuidadosMainSection1 p {
     color: white;
     text-align: left;
-    font-family: 'microsoftSansSerif-regular';
+    font-family: 'levisWindow-regular';
+}
+
+.bodyCuidadosMainSection1 ul {
+    list-style: none;
 }
 
 .bodyCuidadosMainSection1 ul li {
-    margin-left: 30px;
+    margin: 5px 0 0 0;
     color: white;
     text-align: left;
-    font-family: 'microsoftSansSerif-regular';
+    font-family: 'levisWindow-regular';
 }
 
 .bodyCuidadosMainSection2 {
@@ -42,44 +64,22 @@
 .bodyCuidadosMainSection2 p{
     color: white;
     text-align: left;
-    font-family: 'microsoftSansSerif-regular';
+    font-family: 'levisWindow-regular';
+}
+
+.bodyCuidadosMainSection2 ul {
+    list-style: none;
 }
 
 .bodyCuidadosMainSection2 ul li{
-    margin: 0 0 0 30px;
+    margin: 5px 0 0 0;
     color: white;
     text-align: left;
-    font-family: 'microsoftSansSerif-regular';
+    font-family: 'levisWindow-regular';
 }
 
 .bodyCuidadosMainSection2 video{
-    margin: 20px 0 0 30px;
-    width: 40vw;
-    height: auto;
-}
-
-.bodyCuidadosMainSection3 {
-    width: 80vw;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.bodyCuidadosMainSection3 p{
-    color: white;
-    text-align: left;
-    font-family: 'microsoftSansSerif-regular';
-}
-
-.bodyCuidadosMainSection3 ul li{
-    margin: 0 0 0 30px;
-    color: white;
-    text-align: left;
-    font-family: 'microsoftSansSerif-regular';
-}
-
-.bodyCuidadosMainSection3 video{
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 0;
     width: 40vw;
     height: auto;
 }

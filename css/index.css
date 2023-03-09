@@ -1,5 +1,23 @@
+@font-face {
+    font-family: 'levisWindow-regular';
+    src: url('../assets/fonts/levis-window/regular.ttf');
+}
+
+@font-face {
+    font-family: 'microsoftSansSerif-regular';
+    src: url('../assets/fonts/microsoft-sans-serif/regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 .bodyIndex {
     height: 100vh;
+    width: auto;
     background-color: white;
 }
 
@@ -19,8 +37,8 @@
 }
 
 .bodyIndexMainSection1 a img {
-        width: 100px;
-        height: auto;
+    width: 100px;
+    height: auto;
 }
 
 .bodyIndexMainSection1 p {
@@ -38,8 +56,8 @@
 }
 
 .bodyIndexMainSection2 a img {
-        width: 100px;
-        height: auto;
+    width: 100px;
+    height: auto;
 }
 
 .bodyIndexMainSection2 p {
@@ -57,8 +75,8 @@
 }
 
 .bodyIndexMainSection3 a img {
-        width: 100px;
-        height: auto;
+    width: 100px;
+    height: auto;
 }
 
 .bodyIndexMainSection3 p {
@@ -76,8 +94,8 @@
 }
 
 .bodyIndexMainSection4 a img {
-        width: 100px;
-        height: auto;
+    width: 100px;
+    height: auto;
 }
 
 .bodyIndexMainSection4 p {

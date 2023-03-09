@@ -1,5 +1,16 @@
+@font-face {
+    font-family: 'levisWindow-regular';
+    src: url('../assets/fonts/levis-window/regular.ttf');
+}
+
+@font-face {
+    font-family: 'microsoftSansSerif-regular';
+    src: url('../assets/fonts/microsoft-sans-serif/regular.ttf');
+}
+
 .bodyFilotaxia {
     height: 100vh;
+    width: auto;
     background-color: black;
 }
 
@@ -22,5 +33,5 @@
 .bodyFilotaxiaMainSection1 p {
     color: white;
     text-align: left;
-    font-family: 'microsoftSansSerif-regular';
+    font-family: 'levisWindow-regular';
 }

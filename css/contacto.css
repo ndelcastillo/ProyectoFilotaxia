@@ -1,5 +1,23 @@
+@font-face {
+    font-family: 'levisWindow-regular';
+    src: url('../assets/fonts/levis-window/regular.ttf');
+}
+
+@font-face {
+    font-family: 'microsoftSansSerif-regular';
+    src: url('../assets/fonts/microsoft-sans-serif/regular.ttf');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 .bodyContacto {
     height: 100vh;
+    width: auto;
     background-color: black;
 }
 
@@ -22,14 +40,14 @@
 .bodyContactoMainSection1 p {
     color: white;
     text-align: left;
-    font-family: 'microsoftSansSerif-regular';
+    font-family: 'levisWindow-regular';
 }
 
 .bodyContactoMainSection1 a {
     text-decoration: none;
     color: white;
     text-align: left;
-    font-family: 'microsoftSansSerif-regular';
+    font-family: 'levisWindow-regular';
 }
 
 .bodyContactoMainSection1:hover {
