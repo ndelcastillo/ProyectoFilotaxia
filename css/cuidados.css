@@ -1,0 +1,85 @@
+.bodyCuidados {
+    height: 100vh;
+    background-color: black;
+}
+
+.bodyCuidadosHeader a img {
+    width: 100px;
+    height: auto;
+}
+
+.bodyCuidadosMain {
+    padding: 0px 0 0 35px;
+}
+
+.bodyCuidadosMainSection1 {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyCuidadosMainSection1 p {
+    color: white;
+    text-align: left;
+    font-family: 'microsoftSansSerif-regular';
+}
+
+.bodyCuidadosMainSection1 ul li {
+    margin-left: 30px;
+    color: white;
+    text-align: left;
+    font-family: 'microsoftSansSerif-regular';
+}
+
+.bodyCuidadosMainSection2 {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyCuidadosMainSection2 p{
+    color: white;
+    text-align: left;
+    font-family: 'microsoftSansSerif-regular';
+}
+
+.bodyCuidadosMainSection2 ul li{
+    margin: 0 0 0 30px;
+    color: white;
+    text-align: left;
+    font-family: 'microsoftSansSerif-regular';
+}
+
+.bodyCuidadosMainSection2 video{
+    margin: 20px 0 0 30px;
+    width: 40vw;
+    height: auto;
+}
+
+.bodyCuidadosMainSection3 {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyCuidadosMainSection3 p{
+    color: white;
+    text-align: left;
+    font-family: 'microsoftSansSerif-regular';
+}
+
+.bodyCuidadosMainSection3 ul li{
+    margin: 0 0 0 30px;
+    color: white;
+    text-align: left;
+    font-family: 'microsoftSansSerif-regular';
+}
+
+.bodyCuidadosMainSection3 video{
+    margin: 20px 0 0 30px;
+    width: 40vw;
+    height: auto;
+}
