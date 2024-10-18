@@ -108,3 +108,21 @@
     bottom: 20px;
     font-family: 'levisWindow-regular';
 }
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: #000;
+}
+
+model-viewer::part(progress-bar) {
+    display: none;
+}
+
+/* Opcional: Oculta el modelo hasta que se haya cargado */
+#threedd {
+    width: 120px;
+    height: 120px;
+}

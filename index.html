@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,31 +19,42 @@
     <main class="bodyIndexMain">
         <div class="bodyIndexMainSection">
             <div class="bodyIndexMainSection1">
+                <model-viewer id="threedd" src="./assets/static/models/adromischus_succulent_young.glb"  autoplay
+                    camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                </model-viewer>
                 <a href="./pages/filotaxia.html">
-                    <img src="./assets/images/w95/document.png" alt="folderImg">
+                    <p style="margin-top: 20px;">Plants</p>
                 </a>
-                <p>Filotaxia</p>
             </div>
             <div class="bodyIndexMainSection2">
+                <model-viewer id="threedd" src="./assets/static/models/watering_can.glb" autoplay camera-controls
+                    disable-zoom auto-rotate shadow-intensity="1">
+                </model-viewer>
                 <a href="./pages/cuidados.html">
-                    <img src="./assets/images/w95/documentFull.png" alt="folderImg">
+                    <p style="margin-top: 20px;" >Cuidados</p>
                 </a>
-                <p>Cuidados</p>
             </div>
             <div class="bodyIndexMainSection3">
+                <model-viewer id="threedd" src="./assets/static/models/forest_in_a_jar_-_terrarium.glb" autoplay
+                    camera-controls disable-zoom auto-rotate shadow-intensity="1">
+                </model-viewer>
                 <a href="./pages/terrarios.html">
-                    <img src="./assets/images/w95/documentWordspace.png" alt="folderImg">
+                    <p style="margin-top: 30px;">Terrarios</p>
                 </a>
-                <p>Terrarios</p>    
             </div>
             <div class="bodyIndexMainSection4">
+                <model-viewer id="threedd" src="./assets/static/models/home_telephone.glb" autoplay camera-controls
+                    disable-zoom auto-rotate shadow-intensity="1">
+                </model-viewer>
                 <a href="./pages/contacto.html">
-                    <img src="./assets/images/w95/phone.png" alt="folderImg">
+                    <p style="margin-top: 20px;">Contacto</p>
                 </a>
-                <p>Contacto</p>
             </div>
         </div>
     </main>
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+    <script type="module" src="./js/script.js"></script>
 </body>
 
 </html>
